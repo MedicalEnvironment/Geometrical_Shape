@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.12)
+project(Geometric_Shape)
+
+set(CMAKE_CXX_STANDARD 11)
+
+# Source files
+set(SOURCES
+    Circle.cpp
+    Rectangle.cpp
+    Triangle.cpp
+    main.cpp
+)
+
+# Executable
+add_executable(Geometric_Shape ${SOURCES})
